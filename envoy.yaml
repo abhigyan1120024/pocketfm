@@ -37,7 +37,7 @@ static_resources:
                             "e": "AQAB",
                             "kid": "mykey",
                             "kty": "RSA",
-                            "n": "ylhBERkbPx-_ShqtGc99fctRgPPClRyXMqHSIQ4Ptc9aMPhFkcfnk5MAGW26bksL6t5KJFvy_5tTv_joLL9drVv-vJ-C63Yn9_O3WWY1d9MKvPq-cd6mrZQfcW0OSFAvjVW5_9osvZ9DZDDvfkHFCtcjOcga8KQ-CnNCX14fNTFoUp9St-xuLhxZbRZf9VcCF0lFlxKKbq0IIZZ6fAI6CCq4Vo98xrzBYCgC2qEdYaOwESnpcvmKCvbuLF5FYwOPSPliwtPUwueiICiANfqDKggm0ylJoxCYB-LxN2Dmq1vnG0dTHiZ4Kn8hg8gEX0NNcs8MRalPQDM7ZZ2NVi3Juw",
+                            "n": "0hBmWeWI1SVBcCqO7NPUE5HIBdpr0IFXgh1jBbq4A03EBUk3OSJhYGOYt7SYnK81ihvJTaHbQ98JYXOnp-0H16OWTL71I1ZiJ-6tI5PZJ3S_8HXluYiekanIOtUOXRPwcSCVMv-umGjUc08RFj3pu4lrDg9UiIPjaYn8kbvdNtusuBEVwUvQfkPfLXz8bLwCbpNmaQ8wLLmiaDXwS0uwLFA812fsi2T5AiyUsdMkPotqUB5HpDg0n_3QBJonvB8-GXGT_1P1yC7k04UgEKrJJU1kLVlEAwBx775VvtPw_tUTPnFhuIwsnwy3QwF8z_dPh1_OkQ8S_njnxIsDxURjaw",
                             "use": "sig"
                           }
                         ]
