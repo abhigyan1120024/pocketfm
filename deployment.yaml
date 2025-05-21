@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: gin-pocketfm-app
+  namespace: pocket-fm
   labels:
     app: gin-pocketfm-app
 spec:
@@ -16,7 +17,7 @@ spec:
     spec:
       containers:
       - name: gin-pocketfm-app
-        image: gin-pocketfm-app:v1.0
+        image: abhigyan04017/pocket-fm:v1.1
         ports:
         - containerPort: 8000
 
@@ -25,6 +26,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: gin-pocketfm-service
+  namespace: pocket-fm
 spec:
   selector:
     app: gin-pocketfm-app
@@ -32,4 +34,4 @@ spec:
   - protocol: TCP
     port: 8000
     targetPort: 8000
-  type: NodePort
+  type: ClusterIP
