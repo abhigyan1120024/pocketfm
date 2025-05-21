@@ -96,9 +96,9 @@ sudo mv ./kind /usr/local/bin/kind
 - Deploy the Gin app and Envoy proxy:
 
   ```sh
+  kubectl create configmap envoy-config --from-file=envoy.yaml -n envoy-ns
   kubectl apply -f deployment.yaml
   kubectl apply -f envoy-deployment.yaml
-  kubectl create configmap envoy-config --from-file=envoy.yaml -n envoy-ns
   ```
 
 ### 4. Accessing the Service
