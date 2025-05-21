@@ -93,6 +93,13 @@ sudo mv ./kind /usr/local/bin/kind
   kind create cluster --config kind-config.yaml
   ```
 
+- Create the namespaces for Envoy and the Gin service:
+
+  ```sh
+  kubectl create namespace envoy-ns
+  kubectl create namespace pocket-fm
+  ```
+
 - Deploy the Gin app and Envoy proxy:
 
   ```sh
